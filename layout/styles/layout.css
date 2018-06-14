@@ -115,6 +115,9 @@
   margin-right: 8px;
 }
 
+.bg {
+background-image:url('images/demo/backgrounds/bg.jpg');
+}
 .clients {}
 
 .clients li:last-child {
@@ -323,6 +326,8 @@
 
 #footer {
   padding: 80px 0;
+	text-align: center;
+
 }
 
 #footer .heading {
@@ -392,7 +397,8 @@
   transition: all .3s ease-in-out;
 }
 
-#mainav form * {
+#mainav form
+ {
   transition: none !important;
 }
 
@@ -412,6 +418,7 @@ nav ul, nav ol {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 #mainav, #breadcrumb, .sidebar nav {
@@ -728,6 +735,7 @@ td {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 .faico li {
@@ -1148,6 +1156,10 @@ table a, #comments a {
     margin: 0 0 30px 0;
     padding: 0;
   }
+
+	.one_third {
+		text-align: center;
+	}
   #header {
     text-align: center;
   }
@@ -1156,7 +1168,7 @@ table a, #comments a {
   }
   #pageintro article {
     max-width: none;
-    text-align: left;
+
   }
   #pageintro .heading {
     font-size: 2rem;
